@@ -87,7 +87,7 @@
     "electron": "28.0.0",
     "electron-builder": "24.10.0",
     "electron-builder-notarize": "^1.5.1",
-    "extensionless": "^1.9.6",
+    "extensionless": "^2.0.6",
     "husky": "^9.1.7",
     "i18next-scanner": "^4.4.0",
     "lint-staged": "^16.2.7",
