@@ -1,6 +1,15 @@
-# Pezkuwi SDK UI
+<div align="center">
+  <img src="docs/images/Pezkuwi_Logo_Horizontal_Pink_Black.png" alt="Pezkuwi SDK UI" width="400" />
+  <br />
+  <h1>Pezkuwi SDK UI</h1>
+  
+  <p>
+    <strong>A comprehensive web interface for interacting with the Pezkuwi blockchain network.</strong>
+  </p>
 
-A comprehensive web interface for interacting with the Pezkuwi blockchain network.
+  [![CI](https://github.com/pezkuwichain/pezkuwi-sdk-ui/actions/workflows/ci.yml/badge.svg)](https://github.com/pezkuwichain/pezkuwi-sdk-ui/actions/workflows/ci.yml)
+  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+</div>
 
 ## Features
 
@@ -88,6 +97,11 @@ Configure network endpoints in `packages/apps-config/src/endpoints/production.ts
 Add custom runtime types in `packages/apps-config/src/api/spec/pezkuwi.ts`
 
 ## Branding
+
+<div align="center">
+  <img src="docs/images/PEZ_Token_Logo_512.png" alt="PEZ Token" width="128" />
+  <p><em>PEZ Token Logo</em></p>
+</div>
 
 ### Kurdistan Color Palette
 

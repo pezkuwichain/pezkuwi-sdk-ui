@@ -1,45 +1,74 @@
 # Contributing
 
-## What?
+Thank you for your interest in contributing to the Pezkuwi SDK UI!
 
-Individuals making significant and valuable contributions are given commit-access to a project to contribute as they see fit.
-A project is more like an open wiki than a standard guarded open source project.
+## Development Setup
 
-## Rules
+This project uses **Yarn** (modern version) for dependency management and workspaces.
 
-There are a few basic ground-rules for contributors (including the maintainer(s) of the project):
+### Prerequisites
 
-1. **No `--force` pushes** or modifying the Git history in any way. If you need to rebase, ensure you do it in your own repo.
-2. **Non-master branches**, prefixed with a short name moniker (e.g. `<initials>-<feature>`) must be used for ongoing work.
-3. **All modifications** must be made in a **pull-request** to solicit feedback from other contributors.
-4. A pull-request *must not be merged until CI* has finished successfully.
+- Node.js >= 18.14
+- Yarn >= 4.0
 
-#### Merging pull requests once CI is successful:
-- A pull request with no large change to logic that is an urgent fix may be merged after a non-author contributor has reviewed it well.
-- No PR should be merged until all reviews' comments are addressed.
+### Getting Started
 
-#### Reviewing pull requests:
-When reviewing a pull request, the end-goal is to suggest useful changes to the author. Reviews should finish with approval unless there are issues that would result in:
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/pezkuwichain/pezkuwi-sdk-ui.git
+    cd pezkuwi-sdk-ui
+    ```
 
-- Buggy behaviour.
-- Undue maintenance burden.
-- Breaking with house coding style.
-- Pessimisation (i.e. reduction of speed as measured in the projects benchmarks).
-- Feature reduction (i.e. it removes some aspect of functionality that a significant minority of users rely on).
-- Uselessness (i.e. it does not strictly add a feature or fix a known issue).
+2.  **Install dependencies:**
+    ```bash
+    yarn install
+    ```
 
-#### Reviews may not be used as an effective veto for a PR because:
-- There exists a somewhat cleaner/better/faster way of accomplishing the same feature/fix.
-- It does not fit well with some other contributors' longer-term vision for the project.
+3.  **Start development server:**
+    ```bash
+    yarn start
+    ```
+
+## Development Workflow
+
+1.  **Branching:**
+    -   Do not push directly to `master` or `main`.
+    -   Create a feature branch: `git checkout -b feature/my-amazing-feature`.
+
+2.  **Code Style & Linting:**
+    -   We use ESLint to maintain code quality.
+    -   Run the linter before committing:
+        ```bash
+        yarn lint
+        ```
+    -   Ensure your editor is configured to use the project's ESLint config.
+
+3.  **Testing:**
+    -   Run tests to ensure no regressions:
+        ```bash
+        yarn test
+        ```
+    -   Add new tests for new features.
+
+4.  **Committing:**
+    -   Write clear, descriptive commit messages.
+    -   Reference issue numbers if applicable (e.g., `Fixes #123`).
+
+## Pull Requests
+
+1.  Push your branch to your fork.
+2.  Open a Pull Request against the `main` branch.
+3.  Fill out the Pull Request Template.
+4.  Ensure CI checks pass.
+5.  Wait for review.
+
+## Guidelines
+
+-   **No `--force` pushes** on shared branches.
+-   **Atomic Commits:** Keep commits focused on a single change.
+-   **Documentation:** Update README or other docs if you change functionality.
 
 ## Releases
 
 Declaring formal releases remains the prerogative of the project maintainer(s).
 
-## Changes to this arrangement
-
-This is an experiment and feedback is welcome! This document may also be subject to pull-requests or changes by contributors where you believe you have something valuable to add or change.
-
-## Heritage
-
-These contributing guidelines are modified from the "OPEN Open Source Project" guidelines for the Level project: [https://github.com/Level/community/blob/master/CONTRIBUTING.md](https://github.com/Level/community/blob/master/CONTRIBUTING.md)
