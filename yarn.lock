@@ -12735,10 +12735,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"extensionless@npm:^1.9.6":
-  version: 1.9.9
-  resolution: "extensionless@npm:1.9.9"
-  checksum: 10/5d28368b7397629579aca1e8e9c8d101f44eeab693164bb1db6071b01f378ebaba3c8b1c0c900346ba3295e4d595b4060b14450804977228c22695deda788a3d
+"extensionless@npm:^2.0.6":
+  version: 2.0.6
+  resolution: "extensionless@npm:2.0.6"
+  checksum: 10/4a264600d9ff811534b35a66ff59eb075ca5c1ae4f25213bfa71d26a5e28ba5188a0d743f4e1dc8255cf9739258d5d374c6f757957faf4fe0d4ec5f57f51034f
   languageName: node
   linkType: hard
 
@@ -18031,7 +18031,7 @@ __metadata:
     electron: "npm:28.0.0"
     electron-builder: "npm:24.10.0"
     electron-builder-notarize: "npm:^1.5.1"
-    extensionless: "npm:^1.9.6"
+    extensionless: "npm:^2.0.6"
     husky: "npm:^9.1.7"
     i18next-scanner: "npm:^4.4.0"
     lint-staged: "npm:^16.2.7"
